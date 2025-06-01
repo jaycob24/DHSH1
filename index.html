@@ -23,17 +23,25 @@
       
       h1 {
         font-weight: 400;
-        font-size: clamp(2rem, 2.5vw, 3rem);
+        font-size: clamp(2rem, 2.5vw, 4rem);
       }
       
       p {
-        font-size: clamp(1.5rem, 2vw, 2rem);
+        font-size: clamp(1.5rem, 2vw, 3rem);
         line-height: 150%;
       }
 
       @media (max-width: 768px) {
         iframe {
-          height: 90vh;
+          height: 100vh;
+        }
+
+        h1 {
+          font-size: 4rem;
+        }
+    
+        p {
+          font-size: 3rem;
         }
       }
     </style>
